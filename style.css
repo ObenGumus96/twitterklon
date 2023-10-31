@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: 100vh;
+ width: 100%;
+}
+
+.logo{
+
+width: 50%;
+}
+
+.resim{
+    width: 58%;
+    margin: auto;
+    padding-top: 300px;
+    margin-left: 240px;
+}
+
+.kutu{
+    
+    width: 50%;
+}
+
+.login{
+    
+    height: 728px;
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:85px;
+    padding-left: 120px;
+}
+
+.yaz1{
+    height: 100px;
+    width: 550px;
+    margin-bottom: 150px;
+
+}
+
+.yazi{
+    font-size:75px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.yazi2{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cizgi{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.cizgi div{
+    border: 1px solid rgb(236, 236, 236);
+    height: 0px;
+    width: 35%;
+}
+
+
+.yaz4{
+    height: 40px;
+    width: 300px;
+}
+.yazi4{
+    font-size: smaller;
+    color: gray;
+    
+}
+.yazi4 a{
+    text-decoration: none;
+    color:rgb(29, 155, 240) ;
+}
+.btnbox{
+    margin-top: 15px;
+}
+
+.btn{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn3{
+    background-color:rgb(29, 155, 240) ;
+    color: white;
+}
+
+.yaz5{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.btnbox4{
+    margin-top: 10px;
+}
+
+.btn4{
+    color:rgb(29, 155, 240) ;
+    
+}
+
+.btn1:hover{
+    background-color: rgb(238, 247, 252);
+    transition: 0.2s all;
+}
+
+.btn2:hover{
+    background-color: lightgray;
+    transition: 0.2s all;
+}
+
+.btn3:hover{
+    background-color:rgb(29, 135, 240) ;
+    transition: 0.2s all;
+}
+
+.btn4:hover{
+    background-color: rgb(238, 247, 252);
+    transition: 0.2s all;
+}
+
+.liste{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.liste ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.liste ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.liste ul li a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:1000px){
+    .container{ flex-direction: column;
+    
+        .logo{
+            height: auto;
+            width: 20%;
+        }
+    }
+}
+
+
+
+
